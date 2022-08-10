@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My game</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer type="module" src="index.js" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="startGame">
+        <button class="rules noselect">RULES</button>
+        <div class="start-text noselect">CLICK TO START</div>
+    </div>
+
+    <div class="rules-text">
+        <div class="close">X</div>
+        <div class="enemy">
+          <img src="skeleton-animation_01.png" alt="">&nbsp  AVOID ENEMY
+        </div>
+        <div class="coin">
+            <img src="e02ce86bcfd6d1d6c2f775afb3ec8c01_w200.gif" alt="">&nbsp COLECT COINS
+        </div>
+        <div class="click">
+            <img src="skeleton-animation_00.png" alt="">&nbsp  CLICK TO MOVE
+        </div>
+    </div>
+    <div class="canvas-container">
+        <canvas class="myCanvas " ></canvas>
+    </div>
+
+    <div class="score">
+        <h3 class="stats noselect" >0</h3>
+    </div>
+
+    <button class="reset noselect" >RESTART</button>
+
+    <img id='imgleft' src="platfor1.png" alt="1">
+    <img id='imgright' src="platform2.png" alt="1">
+    <img id='ground' src="ground1.png" alt="1">
+    <img id='player' src="animPlayer.png" alt="1">
+    <img id='enemy' src="enemyfin.png" alt="1">
+    <img id='coins' src="coin.png" alt="1">
+</body>
+</html>
